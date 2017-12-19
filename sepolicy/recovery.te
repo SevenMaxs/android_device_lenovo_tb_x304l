@@ -1,0 +1,4 @@
+recovery_only(`
+    allow recovery device:dir rw_dir_perms;
+    allow recovery shell_exec:file x_file_perms;
+')

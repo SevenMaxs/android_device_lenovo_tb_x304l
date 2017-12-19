@@ -1,0 +1,2 @@
+add_lunch_combo lineage_tb_x304l-userdebug
+add_lunch_combo lineage_tb_x304l-eng
