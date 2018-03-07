@@ -10,7 +10,8 @@
 /cache				ext4	/dev/block/bootdevice/by-name/cache
 /data				ext4	/dev/block/bootdevice/by-name/userdata		length=-16384,encryptable=footer
 /misc				emmc	/dev/block/bootdevice/by-name/misc			flags=display="Misc"
-/firmware			vfat	/dev/block/bootdevice/by-name/modem			flags=display="Modem";fsflags="nosuid,nodev";backup=1
+/firmware			vfat	/dev/block/bootdevice/by-name/modem			flags=display="Modem firmware";fsflags="nosuid,nodev";backup=0
+/firmware_image			emmc	/dev/block/bootdevice/by-name/modem			flags=display="Modem";backup=1
 /dsp				ext4	/dev/block/bootdevice/by-name/dsp			flags=display="Adsp";backup=1
 
 /sbl1				emmc	/dev/block/bootdevice/by-name/sbl1			flags=display="Firmware-update";backup=1
